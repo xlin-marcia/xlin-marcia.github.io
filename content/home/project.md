@@ -39,9 +39,9 @@ project_list:
       Deep Learning in Finance		
       - Enhanced traditional PCA-based Absorption Ratio (AR) calculation by integrating an ARIMA + LSTM model to predict future asset correlations and variances, enhancing the precision of systemic risk assessments in the U.S. stock market
       - Back-tested the strategy using historical data to validate its real-world potential, achieving a Sharpe ratio of 1.2986 for AR strategy compared to 1.2297 for an equally weighted portfolio, demonstrating the effectiveness of the predictive model in enhancing risk-adjusted returns
-    image: /img/projects/dog.png
+    image: /img/projects/financial.png
     time: Oct 2023 – Dec 2023
-    github_link: https://github.com/xlin-marcia/Breed_and_Service_Dog_Detector
+    github_link: 
     pdf_link: 
 
 
