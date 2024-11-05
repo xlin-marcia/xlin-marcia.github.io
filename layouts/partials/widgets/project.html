@@ -1,0 +1,62 @@
+{{/* Portfolio Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+
+
+{{/*<div ></div>
+<div class="col-12  col-lg-4 section-heading">
+    {{ with $st.Params.title }}<h1>{{ . }}</h1>{{ end }}
+  <p>Some of my projects, enjoy!</p>
+</div>*/}}
+<div class="col-12  col-lg-8 ">
+
+  {{ range $st.Params.project_list }}
+  <div class="media stream-item view-compact">
+    <div class="media-body">
+
+      <div class="section-subheading article-title mb-0 mt-0">
+        {{ .title }}
+      </div>
+      <div class="article-style">
+          {{ .desc | markdownify}}
+      </div>
+
+
+      <div class="stream-meta article-metadata">
+        <div><span>{{ .time }} </span></div>
+      </div>
+
+
+      <div class="btn-links">
+          {{ with .github_link }}
+
+        <a class="btn btn-outline-primary btn-page-header btn-sm"
+           href="{{ . }}"  target="_blank"
+           rel="noopener">
+          Github
+        </a>
+
+          {{ end }}
+          {{ with .pdf_link }}
+
+        <a class="btn btn-outline-primary btn-page-header btn-sm"
+           href="{{ . }}"  target="_blank"
+           rel="noopener">
+          Pdf
+        </a>
+
+          {{ end }}
+      </div>
+
+
+    </div>
+    <div class="ml-3">
+        {{ with .image }} <img src="{{ . }}" height="84" width="150" loading="lazy" /> {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+
+</div>
