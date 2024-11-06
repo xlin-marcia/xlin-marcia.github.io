@@ -55,7 +55,7 @@ experience:
   - title: President
     company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
     company_url: ''
-    company_logo: ut
+    company_logo: utr
     location: Toronto, Canada
     date_start: '2021-03-01'
     date_end: '2022-03-31'
@@ -65,7 +65,7 @@ experience:
   - title: Marketing Director
     company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
     company_url: ''
-    company_logo: ut
+    company_logo: utr
     location: Toronto, Canada
     date_start: '2020-03-01'
     date_end: '2021-03-31'
@@ -74,7 +74,7 @@ experience:
   - title: Committee Member-
     company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
     company_url: ''
-    company_logo: ut
+    company_logo: utr
     location: Toronto, Canada
     date_start: '2019-03-01'
     date_end: '2020-03-31'
