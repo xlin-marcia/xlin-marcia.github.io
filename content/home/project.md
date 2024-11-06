@@ -45,37 +45,49 @@ project_list:
     pdf_link: 
 
 
-  - title: Breed and Service Dog Image Detection
-    desc: | 
-      Deep Learning Project	
-      -	Led the development of image recognition system for classifying dog breeds and identifying service dogs, incorporating data augmentation techniques to optimize performance for applications in pet adoption, veterinary care, and public safety
-      -	Implemented transfer learning with ResNet50 to reduce training time and enhance feature recognition, maintained code quality and consistency using Git and deployed the model to Huggingface for practical application in real-world scenarios
-    image: /img/projects/dog.png
-    time: Dec 2023 – Apr 2024
-    github_link: https://github.com/xlin-marcia/Breed_and_Service_Dog_Detector
+  - title: Hand Gesture Recognition (ASL)
+    desc: |
+      Computer Vision Project		
+      -	Developed a convolutional neural network (CNN) in PyTorch to classify American Sign Language gestures, employing transfer learning from pre-trained AlexNet models to enhance real-life gesture recognition
+      -	Refined the neural network architecture iteratively by tuning convolutional and pooling layers, adjusting kernel dimensions and dropout layers to prevent overfitting, thereby enhancing model learning efficiency and test accuracy to 92.17%
+    image: /img/projects/hand.jpg
+    time: Jan 2024 – Feb 2024
+    github_link:
     pdf_link: 
 
 
-  - title: Breed and Service Dog Image Detection
-    desc: | 
-      Deep Learning Project	
-      -	Led the development of image recognition system for classifying dog breeds and identifying service dogs, incorporating data augmentation techniques to optimize performance for applications in pet adoption, veterinary care, and public safety
-      -	Implemented transfer learning with ResNet50 to reduce training time and enhance feature recognition, maintained code quality and consistency using Git and deployed the model to Huggingface for practical application in real-world scenarios
-    image: /img/projects/dog.png
-    time: Dec 2023 – Apr 2024
-    github_link: https://github.com/xlin-marcia/Breed_and_Service_Dog_Detector
+  - title: Scalable Gender Dynamics Analyzer
+    desc: |
+      Cloud Data Management	
+      -	Developed a pipeline in Azure Data Factory with a scheduled trigger to automate the transfer of streaming career data from Blob Storage to Azure SQL DB every three minutes
+      -	Crafted precise SQL queries to uncover gender disparities and identify sector-specific trends, analyzing job categories and annual employment variations across genders to enhance strategic planning and policy formulation
+    image: /img/projects/scalable.png
+    time: Jan 2024 – Mar 2024
+    github_link: 
     pdf_link: 
 
 
-  - title: Breed and Service Dog Image Detection
-    desc: | 
-      Deep Learning Project	
-      -	Led the development of image recognition system for classifying dog breeds and identifying service dogs, incorporating data augmentation techniques to optimize performance for applications in pet adoption, veterinary care, and public safety
-      -	Implemented transfer learning with ResNet50 to reduce training time and enhance feature recognition, maintained code quality and consistency using Git and deployed the model to Huggingface for practical application in real-world scenarios
-    image: /img/projects/dog.png
-    time: Dec 2023 – Apr 2024
-    github_link: https://github.com/xlin-marcia/Breed_and_Service_Dog_Detector
+  - title: Sentiment Analysis for Movie Reviews
+    desc: |
+      Natural Language Processing	
+      -	Designed LSTM and BERT models to manage long-term textual dependencies and nuanced language, effectively capturing complex emotional tones in large-scale IMDB Movie Review Dataset
+      -	Applied positional embedding and scheduled learning rate decay strategy to refine training across epochs, achieving test accuracy of 84.71%
+    image: /img/projects/sentiment.png
+    time: Feb 2024 –Apr 2024
+    github_link: 
     pdf_link: 
+
+
+  - title: AI Navigation for Optimized Pathways
+    desc: |
+      Reinforcement Learning Project	
+      -	Devised innovative algorithms for AI agent navigation, achieving a 50% reduction in the frequency of hazards encountered, while ensuring agents maintained optimal paths in the FrozenLakeNotSlippery environment through real-time adjustments. 
+      -	Employed value iteration algorithm through seven iterations, using a one-step lookahead to iteratively refine state values and achieve convergence to an optimal policy, culminating in an optimized matrix that maximizes future rewards for each grid position
+    image: /img/projects/aiNav.png
+    time: Sep 2023 –Nov 2023
+    github_link: 
+    pdf_link: 
+
 
 
 
