@@ -25,7 +25,7 @@ experience:
   - title: Research Assistant
     company: Medical Vision and Artificial Intelligence Technologies (MVAIT Lab)
     company_url: ''
-    company_logo: mvai
+    company_logo: media/icons/experience/medvisai.webp
     location: Singapore
     date_start: '2024-09-01'
     date_end: ''
@@ -35,7 +35,7 @@ experience:
   - title: Funding Coordinator
     company: Honda Canada Finance Inc
     company_url: ''
-    company_logo: honda
+    company_logo: media/icons/experience/honda.png
     location: Markham, Canada
     date_start: '2023-05-18'
     date_end: '2024-05-16'
@@ -45,41 +45,34 @@ experience:
   - title: Research Assistant
     company: University of Connecticut
     company_url: ''
-    company_logo: uc
+    company_logo: media/icons/experience/uoc.png
     location: 
     date_start: '2023-02-10'
     date_end: '2023-05-09'
     description: |2-
-      
 
-  - title: President
-    company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
-    company_url: ''
-    company_logo: utr
-    location: Toronto, Canada
-    date_start: '2021-03-01'
-    date_end: '2022-03-31'
-    description: |2-
-      
 
-  - title: Marketing Director
-    company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
-    company_url: ''
-    company_logo: utr
-    location: Toronto, Canada
-    date_start: '2020-03-01'
-    date_end: '2021-03-31'
-    description: |2-
-
-  - title: Marketing Associate
-    company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
-    company_url: ''
-    company_logo: utr
-    location: Toronto, Canada
-    date_start: '2019-03-01'
-    date_end: '2020-03-31'
-    description: |2-
-      
+utcssa_experience:
+  positions: 
+    - title: President
+      date_start: '2021-03-01'
+      date_end: '2022-03-31'
+      description: |2-
+        
+    - title: Marketing Director
+      date_start: '2020-03-01'
+      date_end: '2021-03-31'
+      description: |2-
+        
+    - title: Marketing Associate
+      date_start: '2019-03-01'
+      date_end: '2020-03-31'
+      description: |2-
+        
+  company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
+  company_url: ''
+  company_logo: media/icons/experience/utcssa.png
+  location: Toronto, Canada
 
 design:
   columns: '2'

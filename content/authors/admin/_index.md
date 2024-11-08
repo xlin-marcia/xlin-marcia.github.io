@@ -29,11 +29,12 @@ education:
     - course: Master of Engineering in Machine Learning and Data Analytics
       institution: University of Toronto
       year: 2024
-      img: /img/ut.png
+#      img: /img/uoft.png
+      img: /img/ut2.png
     - course: HBSc in Statistics
       institution: University of Toronto
       year: 2022
-      img: /img/ut.png
+      img: /img/ut2.png
 #    - course: Honor Bachelor of Science (Double Majored in Statistics and Economic)
 #      institution: University of Toronto
 #      year: 2018 - 2022
