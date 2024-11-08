@@ -71,7 +71,7 @@ experience:
     date_end: '2021-03-31'
     description: |2-
 
-  - title: Committee Member-
+  - title: Marketing Associate
     company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
     company_url: ''
     company_logo: utr

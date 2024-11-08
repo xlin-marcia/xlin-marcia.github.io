@@ -1,11 +1,11 @@
 ---
-role: Recent Graduate of MEng in Machine Learning
+role: MEng Graduate in Machine Learning
 bio: Mauro Leonelli is a Product Manager with a passion for code and over 10 years experience in the Travel business.
 interests:
-  - MEDICAL IMAGING
-  - MULTIMODAL LEARNING
-  - 3D COMPUTER VISION
-  - TEMPORAL MODELLING
+  - Medical Imaging
+  - Multimodal Learning
+  - 3d computer Vision
+  - Temporal Modelling
 
 social:
   - icon: envelope
@@ -22,26 +22,32 @@ organizations:
     url: 
 education:
   courses:
-    - course: Master of Engineering, Specialized in Machine Learning and Data Analytics
+#    - course: Master of Engineering, Specialized in Machine Learning and Data Analytics
+#      institution: University of Toronto
+#      year: 2023 - 2024
+#      img: /img/ut.png
+    - course: Master of Engineering in Machine Learning and Data Analytics
       institution: University of Toronto
-      year: 2023 - 2024
+      year: 2024
       img: /img/ut.png
-    - course: Honor Bachelor of Science (Double Majored in Statistics and Economic)
+    - course: HBSc in Statistics
       institution: University of Toronto
-      year: 2018 - 2022
+      year: 2022
       img: /img/ut.png
+#    - course: Honor Bachelor of Science (Double Majored in Statistics and Economic)
+#      institution: University of Toronto
+#      year: 2018 - 2022
+#      img: /img/ut.png
 superuser: true
 highlight_name: true
 title: Xinlin (Marcia) Yang
 email: "marciayang.lin@gmail.com"
 ---
-I hold an MSc in Robotics from Swiss Federal Institute of Technology Lausanne (EPFL), where I completed my thesis at ETH Zurich under Prof. Marco Hutter and Prof. Caglar Gulcehre from EPFL. My interests include robotics perception, reasoning, and actuation, with a focus on 3D vision, robot control/learning, and multimodal learning.
+I hold a Master of Engineering in Machine Learning and Data Analytics from the University of Toronto, where I developed a strong foundation in data science, predictive modeling, and deep learning methodologies. My primary research interests lie in the intersection of deep learning and medical imaging, with a particular focus on 3D computer vision, multimodal learning, and temporal modeling to advance diagnostic tools for healthcare.
 
-I had the pleasure to work in the labs of Prof. Huijing Zhao at Peking University on 3D perception, Prof. Min Xu at Carnegie Mellon University on Cryo-ET generative models, Prof. Mathieu Salzmann at EPFL on neural networks quantization for object detection and pose estimation.
+My current research centers on developing methodologies for 3D cardiac image segmentation. This work emphasizes enhancing precision in medical imaging through adaptable techniques suited to the complexities of multimodal inputs. My research aims to refine diagnostic capabilities and resilience across diverse imaging environments.
 
-I was a research intern at [ByteDance](https://www.bytedance.com/en/) AI Lab working on multimodal representation learning, and student researcher at Google DeepMind working on extending Vision Language Model with ink modality.
-
-I enjoy board games 🎲, soccer ⚽, tennis 🎾, and music 🎶. Feel free to reach out to me if you want to join in on a hike or play some board games.
+Outside of research, I am driven by a passion for data-driven problem-solving and am an avid enthusiast of badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
 
 
 

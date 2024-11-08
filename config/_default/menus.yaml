@@ -8,17 +8,26 @@ main:
     url: '#about'
     weight: 10
 
-  - name: Experience
-    url: '#experience'
-    weight: 15
-
   - name: News
     url: '#news'
+    weight: 15
+
+  - name: Experience
+    url: '#experience'
     weight: 20
 
   - name: Projects
-    url: '#projects'
+    url: '#project'
     weight: 30
+
+  - name: Working Paper
+    url: '#working_paper'
+    weight: 35
+
+
+  - name: Service
+    url: '#service'
+    weight: 40
 
 #  - name: Publications
 #    url: '#featured'
