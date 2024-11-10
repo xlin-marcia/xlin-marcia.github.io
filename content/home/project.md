@@ -16,7 +16,7 @@ project_list:
   - title: Breed and Service Dog Image Detection
     desc: |
       Developed an advanced image recognition system to classify dog breeds and identify service dogs, leveraging ResNet50 for transfer learning and data augmentation techniques. This project delivered a robust, deployable model on Huggingface, designed to support applications in pet adoption, veterinary care, and public safety through efficient and accurate image-based classification.
-    image: /img/projects/dog.png
+    image: /img/projects/dog.jpg
     time_all: Dec 2023 – Apr 2024
     time: Apr 2024
     github_link: https://github.com/xlin-marcia/Breed_and_Service_Dog_Detector

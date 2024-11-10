@@ -41,7 +41,7 @@
           <div class="d-flex align-content-start">
             <div class="mr-2 mb-2">
               {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
-              <img src="{{ $svg_icon.RelPermalink }}" width="80px"  alt="{{.company | plainify}}" loading="lazy">
+              <img src="{{ $svg_icon.RelPermalink }}"  class="experience-icon-image"  alt="{{.company | plainify}}" loading="lazy">
               {{- with .company_url}}</a>{{end -}}
             </div>
             <div>
@@ -108,7 +108,7 @@
             <div class="d-flex align-content-start">
               <div class="mr-2 mb-2">
                   {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
-                <img src="{{ $svg_icon.RelPermalink }}" width="80px"  alt="{{.company | plainify}}" loading="lazy">
+                <img src="{{ $svg_icon.RelPermalink }}" class="experience-icon-image"  alt="{{.company | plainify}}" loading="lazy">
                   {{- with .company_url}}</a>{{end -}}
               </div>
               <div>
@@ -135,7 +135,7 @@
 
                 {{with .location}}
                 <div class="text-muted exp-meta">
-                    <span class="">. </span>
+                    <span class=""></span>
                     <span>{{.}}</span>
                 </div>
                   {{end}}

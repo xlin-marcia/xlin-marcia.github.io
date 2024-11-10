@@ -19,8 +19,8 @@ design:
   columns: '2'
 ---
 
-[Nov 2024] 🎉 Proudly graduated from the University of Toronto with a Master of Engineering in Machine Learning and Data Analytics, achieving top grades
+**[Nov 2024]** 🎉 Proudly graduated from the University of Toronto with a Master of Engineering in Machine Learning and Data Analytics, achieving top grades
 
-[Sep 2024] 🙌 Excited to join MVAIT Lab as Research Assistant
+**[Sep 2024]** 🙌 Excited to join MVAIT Lab as Research Assistant
 
-[Jul 2024] 🔎 Actively Seeking PhD opportunities starting in 2025 Fall
+**[Jul 2024]** 🔎 Actively Seeking PhD opportunities starting in 2025 Fall

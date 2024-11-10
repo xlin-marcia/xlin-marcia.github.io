@@ -13,7 +13,7 @@
 <div class="col-12  col-lg-8 ">
 
   {{ range $st.Params.project_list }}
-  <div class="media stream-item view-compact">
+  <div class="media stream-item view-compact" style="align-items: stretch;">
     <div class="media-body">
 
       <div class="section-subheading article-title mb-0 mt-0">
@@ -52,8 +52,9 @@
 
 
     </div>
-    <div class="ml-3">
-        {{ with .image }} <img src="{{ . }}" height="84" width="150" loading="lazy" /> {{ end }}
+    <div class="ml-3 home-prj-img-icon-wrap">
+        {{/*{{ with .image }} <img src="{{ . }}" height="84" width="150" loading="lazy" /> {{ end }}*/}}
+        {{ with .image }} <img src="{{ . }}" class="home-project-icon-image" loading="lazy" /> {{ end }}
     </div>
   </div>
   {{ end }}

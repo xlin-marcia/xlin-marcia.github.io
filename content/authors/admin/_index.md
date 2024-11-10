@@ -4,7 +4,7 @@ bio: Mauro Leonelli is a Product Manager with a passion for code and over 10 yea
 interests:
   - Medical Imaging
   - Multimodal Learning
-  - 3d computer Vision
+  - 3d Computer Vision
   - Temporal Modelling
 
 social:
@@ -19,7 +19,7 @@ social:
     link: https://www.linkedin.com/in/marciayang916
 organizations:
   - name: University of Toronto
-    url: 
+    url: https://www.utoronto.ca/
 education:
   courses:
 #    - course: Master of Engineering, Specialized in Machine Learning and Data Analytics
@@ -44,9 +44,9 @@ highlight_name: true
 title: Xinlin (Marcia) Yang
 email: "marciayang.lin@gmail.com"
 ---
-I hold a Master of Engineering in Machine Learning and Data Analytics from the University of Toronto, where I developed a strong foundation in data science, predictive modeling, and deep learning methodologies. My primary research interests lie in the intersection of deep learning and medical imaging, with a particular focus on 3D computer vision, multimodal learning, and temporal modeling to advance diagnostic tools for healthcare.
+I hold a Master of Engineering in Machine Learning and Data Analytics from the [University of Toronto](https://www.utoronto.ca/), where I developed a strong foundation in data science, predictive modeling, and deep learning methodologies. My primary research interests lie in the intersection of deep learning and medical imaging, with a particular focus on 3D computer vision, multimodal learning, and temporal modeling to advance diagnostic tools for healthcare.
 
-My current research centers on developing methodologies for 3D cardiac image segmentation. This work emphasizes enhancing precision in medical imaging through adaptable techniques suited to the complexities of multimodal inputs. My research aims to refine diagnostic capabilities and resilience across diverse imaging environments.
+My current research centers on developing methodologies for **3D cardiac image segmentation**. This work emphasizes enhancing precision in medical imaging through adaptable techniques suited to the complexities of multimodal inputs. My research aims to **refine diagnostic capabilities and resilience across diverse imaging environments**.
 
 Outside of research, I am driven by a passion for data-driven problem-solving and am an avid enthusiast of badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
 

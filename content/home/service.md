@@ -25,7 +25,7 @@ experience:
   - title: Workshop Support (Data Analytics)
     company: STEM Streams | Society for Canadian Women in Science and Technology
     company_url: ''
-#    company_logo: 
+    company_logo: media/icons/service/SCWIST.png
     location: Toronto, Canada
     date_start: '2022-03-01'
     date_end: '2023-03-28'
@@ -34,7 +34,7 @@ experience:
   - title: Peer Mentor
     company: Hart House Mentorship Program
     company_url: ''
-#    company_logo: 
+    company_logo: media/icons/service/hart-house.png
     location: Toronto, Canada
     date_start: '2022-10-05'
     date_end: '2023-03-20'
