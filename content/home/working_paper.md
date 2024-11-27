@@ -11,7 +11,7 @@ weight: 65
 
 title: Working Paper
 subtitle: 
-
+ 
 project_list:
   - title: Canada’s Innovation Strategy Development
     desc: |
@@ -20,6 +20,14 @@ project_list:
     time: 
     github_link: 
     pdf_link: https://github.com/xlin-marcia/AI-Driven_Strategy_for_Advancing_Canadian-Innovation_Index/blob/main/Group%202%20Course%20Project%20Report.pdf
+      
+  - title: "Discrete Mathematics in Sudoku: Combinatorics and Graph Theory"
+    desc: |
+      Performed a mathematical analysis of Sudoku puzzles using discrete mathematics, focusing on combinatorics and graph theory to quantify possible grid arrangements and solve puzzles with unique solutions. By leveraging permutation, combination, and graph coloring techniques, developed an efficient method to address puzzles with extreme clue scenarios. Demonstrated the applicability of mathematical modeling to real-world problem-solving, providing insights into the logical structure and constraints of Sudoku puzzles.
+    image: /img/projects/discrete.png
+    time: 
+    github_link: 
+    pdf_link: 
       
 
 

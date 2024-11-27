@@ -9,8 +9,10 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: News
+title: Recent News
 subtitle:
+ex_link: '/news'  
+ex_link_title: 'All news»'  
 
 
 design:
@@ -24,3 +26,5 @@ design:
 **[Sep 2024]** 🙌 Excited to join MVAIT Lab as Research Assistant
 
 **[Jul 2024]** 🔎 Actively Seeking PhD opportunities starting in 2025 Fall
+
+**[Sep 2023]** 🏫 Started Master studies at UofT

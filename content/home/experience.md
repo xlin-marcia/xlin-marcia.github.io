@@ -52,6 +52,16 @@ experience:
     description: |2-
 
 
+  - title: Business Analyst - WPE
+    company: Royal Bank of Canada
+    company_url: ''
+    company_logo: media/icons/experience/rbc.png
+    location: Toronto, Canada
+    date_start: '2022-08-02'
+    date_end: '2022-09-30'
+    description: |2-
+
+
 utcssa_experience:
   positions: 
     - title: President
