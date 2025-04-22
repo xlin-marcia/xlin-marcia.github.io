@@ -12,7 +12,7 @@ on:
       hugoVersion:
         description: "Hugo Version"
         required: false
-        default: "0.125.7"
+        default: "0.146.5"
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
