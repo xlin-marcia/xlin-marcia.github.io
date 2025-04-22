@@ -22,7 +22,7 @@ marketing:
     description: 'Mauro Leonelli is Product Manager at Amadeus'
     twitter: 'mleonelli'
   analytics:
-    google_analytics: 'G-F7G0K5GH1Z'
+    google: ''
     baidu_tongji: ''
   verification:
     google: ''
@@ -113,5 +113,4 @@ security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
 
-i_am_a_sponsor: true
 
