@@ -6,6 +6,7 @@ share: false
 ---
 
 
+**[Mar 2025]** 🥳 Received PhD offer with full scholarship from SMU in Computer Science
 
 **[Nov 2024]** 🎉 Proudly graduated from the University of Toronto with a Master of Engineering in Machine Learning and Data Analytics, achieving top grades
 
