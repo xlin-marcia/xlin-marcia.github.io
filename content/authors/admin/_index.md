@@ -48,7 +48,7 @@ I hold a Master of Engineering in Machine Learning and Data Analytics from the [
 
 My current research centers on developing methodologies for **3D cardiac image segmentation**. This work emphasizes enhancing precision in medical imaging through adaptable techniques suited to the complexities of multimodal inputs. My research aims to **refine diagnostic capabilities and resilience across diverse imaging environments**.
 
-Outside of research, I am driven by a passion for data-driven problem-solving and am an avid enthusiast of badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
+Outside of research, I am driven by a passion for data-driven problem-solving and am an avid enthusiast of swimming🏊🏼‍♀️, badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
 
 
 
