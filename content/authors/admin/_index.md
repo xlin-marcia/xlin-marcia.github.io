@@ -48,6 +48,6 @@ highlight_name: true
 title: Xinlin (Marcia) Yang
 email: "marciayang.lin@gmail.com"
 ---
-I am currently a PhD student specializing in t AI in healthcare. I leverage vision–language models, multimodal learning, and explainable AI to build systems that can interpret complex medical data and support clinical decision-making. I am committed to advancing human-centered AI solutions that foster trust, reliability, and impact in clinical practice.
+I am currently a PhD student specializing in AI in healthcare. I leverage vision–language models, multimodal learning, and explainable AI to build systems that can interpret complex medical data and support clinical decision-making. I am committed to advancing human-centered AI solutions that foster trust, reliability, and impact in clinical practice.
 
 Outside of research, I am an avid enthusiast of swimming🏊🏼‍♀️, badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
