@@ -1,11 +1,11 @@
 ---
-role: MEng Graduate in Machine Learning
-bio: Mauro Leonelli is a Product Manager with a passion for code and over 10 years experience in the Travel business.
+role: PhD Student in Computer Science
+bio: 
 interests:
-  - Medical Imaging
+  - Vision Language Model
   - Multimodal Learning
-  - 3d Computer Vision
-  - Temporal Modelling
+  - Explainable AI
+  - Human Computer Interation
 
 social:
   - icon: envelope
@@ -18,8 +18,8 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/marciayang916
 organizations:
-  - name: University of Toronto
-    url: https://www.utoronto.ca/
+  - name:  Singapore Management University
+    url: https://computing.smu.edu.sg/
 education:
   courses:
 #    - course: Master of Engineering, Specialized in Machine Learning and Data Analytics
@@ -28,7 +28,7 @@ education:
 #      img: /img/ut.png
     - course: PhD in Computer Science
       institution: Singapore Management University (SMU)
-      year: 2025
+      year: Current
       img: /img/smu.png
     - course: Master of Engineering in Machine Learning and Data Analytics
       institution: University of Toronto
@@ -48,8 +48,6 @@ highlight_name: true
 title: Xinlin (Marcia) Yang
 email: "marciayang.lin@gmail.com"
 ---
-I hold a Master of Engineering in Machine Learning and Data Analytics from the [University of Toronto](https://www.utoronto.ca/), where I developed a strong foundation in data science, predictive modeling, and deep learning methodologies. My primary research interests lie in the intersection of deep learning and medical imaging, with a particular focus on 3D computer vision, multimodal learning, and temporal modeling to advance diagnostic tools for healthcare.
+I am currently a PhD student specializing in t AI in healthcare. I leverage vision–language models, multimodal learning, and explainable AI to build systems that can interpret complex medical data and support clinical decision-making. I am committed to advancing human-centered AI solutions that foster trust, reliability, and impact in clinical practice.
 
-My current research centers on developing methodologies for **3D cardiac image segmentation**. This work emphasizes enhancing precision in medical imaging through adaptable techniques suited to the complexities of multimodal inputs. My research aims to **refine diagnostic capabilities and resilience across diverse imaging environments**.
-
-Outside of research, I am driven by a passion for data-driven problem-solving and am an avid enthusiast of swimming🏊🏼‍♀️, badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
+Outside of research, I am an avid enthusiast of swimming🏊🏼‍♀️, badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!

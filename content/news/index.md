@@ -5,6 +5,7 @@ title: News
 share: false
 ---
 
+**[Aug 2025]** 🤖 Started PhD studies at SMU
 
 **[Mar 2025]** 🥳 Received PhD offer with full scholarship from SMU in Computer Science
 
@@ -25,4 +26,3 @@ share: false
 **[Mar 2023]** 🎊 Have been admitted into Master’s Program at Schulich Business School
 
 **[Dec 2022]** 🕰️ Started working with Prof.Guojun on backtesting algorithm trading research paper
-

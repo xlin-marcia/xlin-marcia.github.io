@@ -28,7 +28,7 @@ experience:
     company_logo: media/icons/experience/medvisai.webp
     location: Singapore
     date_start: '2024-09-01'
-    date_end: ''
+    date_end: '2025-04-01'
     description: |2-
         
 

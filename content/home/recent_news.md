@@ -20,12 +20,8 @@ design:
   view: compact
   columns: '2'
 ---
+**[Aug 2025]** 🤖 Started PhD studies at SMU
+
 **[Mar 2025]** 🥳 Received PhD offer with full scholarship from SMU in Computer Science
 
 **[Nov 2024]** 🎉 Proudly graduated from the University of Toronto with a Master of Engineering in Machine Learning and Data Analytics, achieving top grades
-
-**[Sep 2024]** 🙌 Excited to join MVAIT Lab as Research Assistant
-
-**[Jul 2024]** 🔎 Actively Seeking PhD opportunities starting in 2025 Fall
-
-**[Sep 2023]** 🏫 Started Master studies at UofT
