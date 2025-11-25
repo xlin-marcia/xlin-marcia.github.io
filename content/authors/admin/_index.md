@@ -2,10 +2,11 @@
 role: PhD Student in Computer Science
 bio: 
 interests:
-  - Vision Language Model
-  - Multimodal Learning
-  - Explainable AI
-  - Human Computer Interation
+- LLM Reasoning
+- Multimodal Learning
+- NLP
+- Clinical Decision Support
+- Medical Imaging & Response Assessment
 
 social:
   - icon: envelope
