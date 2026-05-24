@@ -6,14 +6,10 @@
 {{ $opts := dict "delimiter" $delimiter "format" "csv" "targetType" "slice" }}
 
 {{ if strings.HasPrefix $src "http" }}
-  {{ with try (resources.GetRemote $src) }}
-    {{ with .Err }}
-      {{ errorf "%s" . }}
-    {{ else with .Value }}
-      {{ $rows = transform.Unmarshal $opts . }}
-    {{ else }}
-      {{ errorf "Unable to get remote CSV resource %q" $src }}
-    {{ end }}
+  {{ with resources.GetRemote $src }}
+    {{ $rows = transform.Unmarshal $opts . }}
+  {{ else }}
+    {{ errorf "Unable to get remote CSV resource %q" $src }}
   {{ end }}
 {{ else }}
   {{ with .Page.Resources.Get $src }}
