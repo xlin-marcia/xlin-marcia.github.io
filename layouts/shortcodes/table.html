@@ -1,0 +1,46 @@
+{{ $src := .Get "path" }}
+{{ $delimiter := .Get "delimiter" | default "," }}
+{{ $useHeaderRow := (eq (lower (.Get "header")) "true") | default true }}
+{{ $caption := .Get "caption" }}
+{{ $rows := slice }}
+{{ $opts := dict "delimiter" $delimiter "format" "csv" "targetType" "slice" }}
+
+{{ if strings.HasPrefix $src "http" }}
+  {{ with try (resources.GetRemote $src) }}
+    {{ with .Err }}
+      {{ errorf "%s" . }}
+    {{ else with .Value }}
+      {{ $rows = transform.Unmarshal $opts . }}
+    {{ else }}
+      {{ errorf "Unable to get remote CSV resource %q" $src }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ with .Page.Resources.Get $src }}
+    {{ $rows = transform.Unmarshal $opts . }}
+  {{ else }}
+    {{ errorf "Unable to get page CSV resource %q" $src }}
+  {{ end }}
+{{ end }}
+
+<table class="table">
+  {{ if and $useHeaderRow (gt (len $rows) 0) }}
+    {{ $headerRow := index $rows 0 }}
+    {{ $rows = after 1 $rows }}
+    <tr>{{ range $headerRow }}<th>{{ . | markdownify | emojify }}</th>{{ end }}</tr>
+  {{ end }}
+  {{ range $rows }}
+    <tr>
+      {{ range . }}
+        {{ if (findRE "^\\d+$" .) }}
+          <td data-table-dtype="number">{{ . }}</td>
+        {{ else }}
+          <td data-table-dtype="text">{{ . | markdownify | emojify }}</td>
+        {{ end }}
+      {{ end }}
+    </tr>
+  {{ end }}
+  {{ with $caption }}
+    <caption>{{ . | markdownify | emojify }}</caption>
+  {{ end }}
+</table>

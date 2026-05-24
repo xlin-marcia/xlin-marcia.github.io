@@ -29,8 +29,7 @@ experience:
     location: Singapore
     date_start: '2024-09-01'
     date_end: '2025-04-01'
-    description: |2-
-        
+    description: ''
 
   - title: Funding Coordinator
     company: Honda Canada Finance Inc
@@ -39,8 +38,7 @@ experience:
     location: Markham, Canada
     date_start: '2023-05-18'
     date_end: '2024-05-16'
-    description: |2-
-       
+    description: ''
 
   - title: Research Assistant
     company: University of Connecticut
@@ -49,7 +47,7 @@ experience:
     location: 
     date_start: '2023-02-10'
     date_end: '2023-05-09'
-    description: |2-
+    description: ''
 
 
   - title: Business Analyst - WPE
@@ -59,7 +57,7 @@ experience:
     location: Toronto, Canada
     date_start: '2022-08-02'
     date_end: '2022-09-30'
-    description: |2-
+    description: ''
 
 
 utcssa_experience:
@@ -67,18 +65,15 @@ utcssa_experience:
     - title: President
       date_start: '2021-03-01'
       date_end: '2022-03-31'
-      description: |2-
-        
+      description: ''
     - title: Marketing Director
       date_start: '2020-03-01'
       date_end: '2021-03-31'
-      description: |2-
-        
+      description: ''
     - title: Marketing Associate
       date_start: '2019-03-01'
       date_end: '2020-03-31'
-      description: |2-
-        
+      description: ''
   company: University of Toronto Chinese Student and Scholars Association (UTCSSA)
   company_url: ''
   company_logo: media/icons/experience/utcssa.png

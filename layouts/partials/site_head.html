@@ -9,7 +9,7 @@
     <meta name="generator" content="Wowchemy {{ site.Data.wowchemy.version }} for Hugo" />
   {{ end }}
 
-  {{ partial "functions/get_hook" (dict "hook" "head-start" "context" .) }}
+  {{ partial "wowchemy-core/functions/get_hook" (dict "hook" "head-start" "context" .) }}
 
   {{ if .Params.private }}
     <meta name="robots" content="noindex" />
@@ -118,8 +118,8 @@
     <link rel="manifest" href="{{ .RelPermalink }}" />
   {{ end }}
 
-  <link rel="icon" type="image/png" href="{{ (partial "functions/get_icon" 32).RelPermalink }}" />
-  <link rel="apple-touch-icon" href="{{ (partial "functions/get_icon" 180).RelPermalink }}" />
+  <link rel="icon" type="image/png" href="{{ (partial "wowchemy-core/functions/get_icon" 32).RelPermalink }}" />
+  <link rel="apple-touch-icon" href="{{ (partial "wowchemy-core/functions/get_icon" 180).RelPermalink }}" />
   <link rel="canonical" href="{{ .Permalink }}" />
 
   {{ $sharing_image := resources.GetMatch "media/sharing.*" }}
@@ -137,10 +137,10 @@
   {{ else if $sharing_image }}
     {{ $og_image = $sharing_image.Permalink }}
   {{ else if $has_logo }}
-    {{ $og_image = (partial "functions/get_logo" (dict "constraint" "fit" "size" 300)).Permalink }}
+    {{ $og_image = (partial "wowchemy-core/functions/get_logo" (dict "constraint" "fit" "size" 300)).Permalink }}
     {{ $twitter_card = "summary" }}
   {{ else }}
-    {{ $og_image = (partial "functions/get_icon" 512).Permalink }}
+    {{ $og_image = (partial "wowchemy-core/functions/get_icon" 512).Permalink }}
     {{ $twitter_card = "summary" }}
   {{ end }}
   {{ $scr.Set "og_image" $og_image }}
@@ -178,5 +178,5 @@
   {{ if templates.Exists "partials/custom_head" }}
     {{ partial "custom_head" . }}
   {{ end }}
-  {{ partial "functions/get_hook" (dict "hook" "head-end" "context" .) }}
+  {{ partial "wowchemy-core/functions/get_hook" (dict "hook" "head-end" "context" .) }}
 </head>

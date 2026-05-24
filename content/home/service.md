@@ -29,8 +29,7 @@ experience:
     location: Toronto, Canada
     date_start: '2022-03-01'
     date_end: '2023-03-28'
-    description: |2-
-      
+    description: ''
   - title: Peer Mentor
     company: Hart House Mentorship Program
     company_url: ''
@@ -38,8 +37,7 @@ experience:
     location: Toronto, Canada
     date_start: '2022-10-05'
     date_end: '2023-03-20'
-    description: |2-
-        
+    description: ''
 
 design:
   columns: '2'
