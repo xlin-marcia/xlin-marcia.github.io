@@ -6,7 +6,7 @@
   {{ $is_sponsor := site.Params.i_am_a_sponsor | default false }}
   {{ $hide_generator := site.Params.power_ups.hide_generator | default false }}
   {{ if not (and $is_sponsor $hide_generator) }}
-    <meta name="generator" content="Wowchemy {{ site.Data.wowchemy.version }} for Hugo" />
+    <meta name="generator" content="Wowchemy {{ hugo.Data.wowchemy.version }} for Hugo" />
   {{ end }}
 
   {{ partial "wowchemy-core/functions/get_hook" (dict "hook" "head-start" "context" .) }}
@@ -45,7 +45,7 @@
   {{ range .Translations }}
     <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
   {{ end }}
-  <link rel="alternate" hreflang="{{ site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}" />
+  <link rel="alternate" hreflang="{{ site.Language.Locale | default "en-us" }}" href="{{ .Permalink }}" />
 
   {{ if ne ($scr.Get "primary") "#fff" }}
     <meta name="theme-color" content="{{ $scr.Get "primary" }}" />
@@ -164,7 +164,7 @@
     <meta property="og:image" content="{{ . }}" />
     <meta property="twitter:image" content="{{ . }}" />
   {{ end }}
-  <meta property="og:locale" content="{{ site.LanguageCode | default "en-us" }}" />
+  <meta property="og:locale" content="{{ site.Language.Locale | default "en-us" }}" />
   {{ if .IsPage }}
     <meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
     <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />

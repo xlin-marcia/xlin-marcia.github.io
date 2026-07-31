@@ -2,11 +2,10 @@
 role: PhD Student in Computer Science
 bio: 
 interests:
-- LLM Reasoning
-- Multimodal Learning
+- XAI in Healthcare
+- Reasoning in Generative Models
 - NLP
-- Clinical Decision Support
-- Medical Imaging & Response Assessment
+- Multimodal Clinical Decision Support
 
 social:
   - icon: envelope
@@ -51,4 +50,4 @@ email: "marciayang.lin@gmail.com"
 ---
 I am currently a PhD student specializing in AI in healthcare. I leverage vision–language models, multimodal learning, and explainable AI to build systems that can interpret complex medical data and support clinical decision-making. I am committed to advancing human-centered AI solutions that foster trust, reliability, and impact in clinical practice.
 
-Outside of research, I am an avid enthusiast of swimming🏊🏼‍♀️, badminton🏸, surfing🏄, and skydiving🪂. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
+Outside of research, I am an avid enthusiast of tennis🎾 , pilates🧘, swimming🏊🏼‍♀️, and surfing🏄. If you share similar interests or have ideas for collaboration, please feel free to connect with me!
