@@ -26,6 +26,16 @@ module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    # Wowchemy SEO ships a legacy sitemap render hook that Hugo 0.161 no longer
+    # recognizes. Import the module directly and exclude only that obsolete file.
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo
+      mounts:
+        - source: assets
+          target: assets
+        - source: layouts
+          target: layouts
+          files:
+            - '! _default/_markup/sitemap.xml'
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
 ############################
